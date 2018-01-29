@@ -6,7 +6,8 @@ git_source(:github) do |repo_name|
 end
 gem 'simple_form', '~> 3.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-
+gem 'devise', '~> 4.4', '>= 4.4.1'
+gem 'devise-bootstrap-views'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
@@ -33,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'jquery-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
